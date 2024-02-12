@@ -1,0 +1,35 @@
+.main_contatct {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 1rem 0;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.main_contatct_list li {
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main_contatct_child {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+}
+
+.main_contatct_child h2 {
+    font-size: 2rem;
+}
+
+.main_contatct_child a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}

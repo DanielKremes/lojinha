@@ -1,0 +1,16 @@
+.container_sobre {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    width: 90%;
+    text-align: justify;
+    margin: auto;
+}
+
+.container_sobre_child {
+    font-size: 1.3rem;
+    text-align: left;
+}
